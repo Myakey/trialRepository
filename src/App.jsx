@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import Button from './button.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,6 +15,9 @@ function App() {
         </div> 
         <div className="mt-5">
           <img src="/src/assets/yorigamiShion.png"/>
+        </div>
+        <div>
+          <Button />
         </div>
       </div>
     </>
