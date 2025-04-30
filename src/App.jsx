@@ -5,7 +5,7 @@ import './App.css'
 import Button from './button.jsx'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0) //Declaration of usestate
 
   return (
     <>
@@ -13,6 +13,7 @@ function App() {
         <div>
           <h1 className="text-center text-4xl">Game Trial</h1>
         </div> 
+        <div>{count}</div>
         <div className="mt-5">
           <img src="/src/assets/yorigamiShion.png"/>
         </div>
